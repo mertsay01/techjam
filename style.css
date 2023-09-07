@@ -1,0 +1,93 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-size: 62.5%;
+    font-family: sans-serif;
+}
+
+header{
+    font-size: 1.5rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    padding: 1rem;
+}
+
+.headerimage{
+    height: 3rem;
+    width: 3rem;
+    object-fit: contain;
+}
+
+a{
+    text-decoration: none;
+    color: black;
+}
+
+li{
+    list-style: none;
+}
+
+.eerstegedeelte{
+    height: 30rem;
+    background-color: blue;
+}
+
+.eerstegedeelteli{
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 4rem;
+}
+
+.eerstegedeelteimg{
+    height: 25rem;
+    width: 35rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.eerstegedeelteimg:hover{
+    cursor: pointer;
+    transform: scale(1.05);
+    transition: 0.5s;
+}
+
+.tweedegedeelte{
+    margin-left: 22rem;
+    height: 100rem;
+    width: 47%;
+    padding-left: 3rem;
+    padding-top: 3rem;
+    background-color: red;
+}
+
+.tweedegedeelteli{
+    width: 17rem;
+    display: inline-block;
+}
+
+.tweedegedeelteimg{
+    width: 15rem;
+    height: 12rem;
+    object-fit: cover;
+    border-radius: 0.5rem;
+}
+
+.tweedegedeeltep{
+    padding-top: 1rem;
+    font-size: 1.1rem;
+    padding-bottom: 1rem;
+    font-weight: bolder;
+}
+
+.tweedegedeeltep2{
+    font-size: 1.1rem;
+    padding-bottom: 3rem;
+}
